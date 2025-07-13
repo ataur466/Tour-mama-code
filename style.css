@@ -1,0 +1,137 @@
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#FFFFFF , #EBDCFF);
+}
+#banner{
+    margin: 100px auto 120px auto;
+    padding: 20px 30px;
+    border: 2px solid #872BFF10;
+    background-image: url(../images/hero-bg.png);
+    display: flex;
+    width: 87.5%;
+    border-radius: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner-content p{
+    font-weight: medium;
+    font-size: 18px;
+    color: #A8A8A8;
+}
+.banner-content *{
+    margin-bottom: 20px;
+}
+.banner-content h1 span{
+    color: #F411CF;
+}
+.btn{
+    color: #FFFFFF;
+    background-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.demo{
+    border-radius: 30px;
+    padding: 16px 32px;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: 2px solid #872BFF;
+}
+
+.heading-content {
+    text-align: center;
+}
+.heading-content h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F411CF;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.heading-content h2{
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.image-box{
+    width: 600px;
+}
+
+#service ,
+#story ,
+#country {
+    width: 87.5%;
+    margin: 0px auto 120px auto;
+}
+
+#service-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 60px;
+    text-align: center;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.service-card img {
+    margin-bottom: 70px;
+}
+
+.service-card h2{
+    font-size: 28px;
+    font-weight: semibold;
+    margin-bottom: 20px;
+}
+
+.service-card p{
+    color: #A8A8A8;
+}
+
+.story-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 24px;
+    display: flex;
+    gap: 30px;
+}
+
+.story-content h2 ,
+.story-content p ,
+.story-content img{
+    margin-bottom: 30px;
+}
+
+#country-card-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#country-card-container h2 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
